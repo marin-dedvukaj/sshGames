@@ -1,0 +1,9 @@
+Level 0 --> level 1 of banditLabs OverTheWire.
+
+URL:
+
+Connection:ssh -p 2220 bandit3@bandit.labs.overthewire.org
+Password:
+
+Solution:
+$

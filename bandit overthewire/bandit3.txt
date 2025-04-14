@@ -1,0 +1,15 @@
+Level 0 --> level 1 of banditLabs OverTheWire.
+
+URL:https://overthewire.org/wargames/bandit/bandit3.html
+
+Connection:ssh -p 2220 bandit3@bandit.labs.overthewire.org
+Password:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+Solution:
+$ ls
+inhere
+
+$ ls -a inhere
+.  ..  ...Hiding-From-You
+$ cat inhere/...Hiding-From-You
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

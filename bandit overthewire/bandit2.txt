@@ -1,0 +1,13 @@
+Level 0 --> level 1 of banditLabs OverTheWire.
+
+URL:https://overthewire.org/wargames/bandit/bandit2.html
+
+Connection:ssh -p 2220 bandit2@bandit.labs.overthewire.org
+Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+Solution:
+$ls
+spaces in this filename
+
+$cat "spaces in this filename"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
