@@ -1,4 +1,4 @@
-Level 0 --> level 1 of banditLabs OverTheWire.
+Level 2 --> level 3 of banditLabs OverTheWire.
 
 URL:https://overthewire.org/wargames/bandit/bandit3.html
 

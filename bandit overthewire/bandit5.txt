@@ -1,0 +1,82 @@
+Level 5 --> level 6 of banditLabs OverTheWire.
+
+URL:https://overthewire.org/wargames/bandit/bandit5.html
+
+Connection:ssh -p 2220 bandit5@bandit.labs.overthewire.org
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+Solution:
+$ ls -aR
+.:
+.  ..  .bash_logout  .bashrc  inhere  .profile
+
+./inhere:
+.            maybehere01  maybehere04  maybehere07  maybehere10  maybehere13  maybehere16  maybehere19
+..           maybehere02  maybehere05  maybehere08  maybehere11  maybehere14  maybehere17
+maybehere00  maybehere03  maybehere06  maybehere09  maybehere12  maybehere15  maybehere18
+
+./inhere/maybehere00:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere01:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere02:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere03:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere04:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere05:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere06:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere07:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere08:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere09:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere10:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere11:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere12:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere13:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere14:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere15:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere16:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere17:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere18:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+./inhere/maybehere19:
+.  ..  -file1  .file1  -file2  .file2  -file3  .file3  spaces file1  spaces file2  spaces file3
+
+$ ls -aR | du --all --bytes | grep "1033"
+1033    ./inhere/maybehere07/.file2
+
+$ cat ./inhere/maybehere07/.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

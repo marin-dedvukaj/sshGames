@@ -1,4 +1,4 @@
-Level 0 --> level 1 of banditLabs OverTheWire.
+Level 4 --> level 5 of banditLabs OverTheWire.
 
 URL:https://overthewire.org/wargames/bandit/bandit4.html
 
@@ -6,6 +6,16 @@ Connection:ssh -p 2220 bandit4@bandit.labs.overthewire.org
 
 Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-
 Solution:
-$
+$ ls
+inhere
+
+$ cd inhere
+
+$ find -type f -exec cat {} +
+��*��-o��w9�P�RAz�b��[��F�6|ر��Vܒ��q ��*rMӼ^';b\���_��+J��2X1�M�O�g��Y����d�Ŧj
+                                                                              o5e�Mz9�#P�ws������Oh||xt��N$���'���Se��
+      \�- V�P�jls�����)�r�R�C#�ӧ��4��_�\����^�)C�ŉOT���S �plS]-EH�t�:-�Z�
+
+x����]C�
+t4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw�
