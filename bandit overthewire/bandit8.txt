@@ -1,0 +1,13 @@
+Level 7 --> level 8 of banditLabs OverTheWire.
+
+URL:https://overthewire.org/wargames/bandit/bandit8.html
+
+Connection:ssh -p 2220 bandit8@bandit.labs.overthewire.org
+Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+Solution:
+$ ls 
+data.txt 
+
+$ sort data.txt | uniq -uniq
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
