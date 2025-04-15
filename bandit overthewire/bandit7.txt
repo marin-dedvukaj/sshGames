@@ -1,0 +1,13 @@
+Level 6 --> level 7 of banditLabs OverTheWire.
+
+URL:https://overthewire.org/wargames/bandit/bandit6.html
+
+Connection:ssh -p 2220 bandit7@bandit.labs.overthewire.org
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+Solution:
+$ls 
+data.txt
+
+$cat data.txt | grep "millionth"
+millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
